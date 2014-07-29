@@ -72,5 +72,5 @@ object Evolution
     println("Perfect species found with " + generation + " generations!")
   }
 
-  def randomCharacter = (Evolution.random.nextInt(25) + 97).toChar
+  def randomCharacter = (Evolution.random.nextInt(26) + 97).toChar
 }
